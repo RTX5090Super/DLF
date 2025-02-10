@@ -1,0 +1,11 @@
+training:
+  batch_size: 16
+  num_epochs: 10
+  learning_rate: 1e-4
+  mixed_precision: true
+  gradient_accumulation: 4
+
+data:
+  image_size: 160
+  num_classes: 10  # 根据你的任务调整
+  data_dir: "./data/raw"
